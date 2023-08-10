@@ -26,3 +26,4 @@ ggplot(data = diamonds, aes(x = price, y = carat)) + geom_point(color = "pink")
 ggplot(data = diamonds, aes(x = price)) +
   geom_histogram(aes(fill = carat))
 ```
+
